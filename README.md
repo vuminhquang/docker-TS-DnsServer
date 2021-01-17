@@ -1,3 +1,6 @@
+Lệnh docker để chạy
+docker run -p 53:53/udp -p 5380:5380 -v ${PWD}/ts-dnsserver:/config -e PUID=1000 -e PGID=1000 <ImageId>
+
 # [docker-TechnitiumSoftware-DnsServer](https://github.com/Roxedus/docker-TS-DnsServer)
 
 [![Version](https://images.microbadger.com/badges/version/roxedus/ts-dnsserver.svg)](https://microbadger.com/images/roxedus/ts-dnsserver)
